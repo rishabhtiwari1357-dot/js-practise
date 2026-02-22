@@ -17,3 +17,4 @@
 console.log(Math.max(1,2,3,4))
 
 console.log(Math.random())
+console.log(Math.random()*10)
