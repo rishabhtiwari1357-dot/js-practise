@@ -11,11 +11,11 @@ const gameName = new String('rishabh_tiwari')
 const newWord = gameName.slice(-7, 4)
 // console.log(newWord)
 
-const url = "https://rishabh.com/rishabh%20tiwari"
+// const url = "https://rishabh.com/rishabh%20tiwari"
 
-console.log(url.replace('%20', '_'))
+// console.log(url.replace('%20', '_'))
 
-console.log(url.includes("rishabh"))
+// console.log(url.includes("rishabh"))
 
-console.log(gameName.split('_'))
+// console.log(gameName.split('_'))
 
