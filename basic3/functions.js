@@ -14,3 +14,26 @@ function addTwoNumbers(num1, num2){
 // console.log(addTwoNumbers(4, 3))
 // result = addTwoNumbers(2,3)
 // console.log(result)
+
+
+// function loginUserMessage(username = "kunal"){
+//     if(!username){
+//         console.log("Please enter a valid username")
+//         return
+//     }
+//     return `Welcome back, ${username}!`
+// }
+
+// console.log(loginUserMessage("rohit_sharma"))
+
+
+function loginUserMessage(username){
+    if(!username){
+        console.log("Please enter a valid username")
+        return
+    }
+    return `Welcome back, ${username}!`
+}
+
+// console.log(loginUserMessage())
+loginUserMessage()
