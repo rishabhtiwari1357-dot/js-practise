@@ -36,4 +36,8 @@ function loginUserMessage(username){
 }
 
 // console.log(loginUserMessage())
-loginUserMessage()
+// loginUserMessage()
+
+function calculateCartPrice(num1){
+return num1
+}
