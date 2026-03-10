@@ -41,3 +41,5 @@ function loginUserMessage(username){
 function calculateCartPrice(num1){
 return num1
 }
+
+console.log(calculateCartPrice(5))
