@@ -6,12 +6,19 @@ for (const element of arr) {
     
 }
 
+const greetings = "Hello world"
+for (const element of greetings) {
+    // console.log(element)
+}
+
+
 const map = new Map()
 map.set('IN', "INDIA")
 map.set('USA', "United States of America")
+map.set('IND', "INDIA")
 
 // console.log(map)
 
-for (const [key, value] of map) {
-    console.log(key, ':-', value)
+for (const element of map) {
+    console.log(element)
 }
