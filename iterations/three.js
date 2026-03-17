@@ -19,6 +19,15 @@ map.set('IND', "INDIA")
 
 // console.log(map)
 
-for (const element of map) {
+for (const [element , elements_val] of map) {
+    // console.log(element, ':', elements_val)
+}
+
+const myObj = {
+    'game1' : 'NFS',
+    'game2' : 'Spiderman'
+}
+
+for (const element of myObj) {
     console.log(element)
 }
