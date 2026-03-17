@@ -29,5 +29,5 @@ const myObj = {
 }
 
 for (const element of myObj) {
-    console.log(element)
+    // console.log(element)
 }
