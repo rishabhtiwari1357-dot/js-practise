@@ -31,9 +31,9 @@
 // })
 
 
-const promiseFour = new promise(function(resolve, reject){
+const promiseFour = new Promise(function(resolve, reject){
   setTimeout(function(){
-    let error = true
+    let error = false
     if(!error){
       resolve({username: "rishabh", password: "123"})
     } else {
@@ -42,4 +42,14 @@ const promiseFour = new promise(function(resolve, reject){
   }, 1000)
 })
 
-promiseFour.then( (user) => {console.log(user)} )
+promiseFour
+.then( (user) => {
+  console.log(user);
+  return user.username
+} )
+.then((username) => {
+  console.log(username);
+})
+.catch(function(error){
+  console.log(error)
+})
